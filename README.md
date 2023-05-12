@@ -1,7 +1,7 @@
 # Unraid_QBT_Mover
 Script to pause torrents based on age and presence on cache prior to invoking the Unraid mover
 
-This script is a modified version of the script written by [bobokun](https://github.com/bobokun).  It's intended for those that want to keep data on the cache drive up until the Mover Tuning plugin threshhold.
+This script is a modified version of the script written by [bobokun](https://github.com/bobokun).  It's intended for those that want to keep torrent data on the cache drive up until the Mover Tuning plugin threshhold, and when running, pause as few torrents as possible.
 
 Caveats:
 * I have not tested with many configurations of the Mover Tuning.  On my system, I use a simple "age" configuration with threshhold amount.
